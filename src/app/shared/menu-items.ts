@@ -16,6 +16,13 @@ const MENUITEMS = [
       type:'link',
       icon:'dashboard',
       role:''
+    },
+    {
+      state:'category',
+      name:'Manage Category',
+      type:'link',
+      icon:'category',
+      role:'admin'
     }
 ];
 
