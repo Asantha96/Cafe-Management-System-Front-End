@@ -30,6 +30,13 @@ const MENUITEMS = [
       type:'link',
       icon:'inventory_2',
       role:'admin'
+    },
+    {
+      state:'order',
+      name:'Manage Order',
+      type:'link',
+      icon:'shopping_cart',
+      role:''
     }
 ];
 

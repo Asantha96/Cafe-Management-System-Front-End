@@ -43,4 +43,12 @@ export class ProductService {
       });
     }
 
+    getProductByCategory(id:any){
+      return this.httpClient.get(this.url+"/product/getByCategory/"+id);
+    }
+
+    getById(id:any){
+      return this.httpClient.get(this.url+"/product/getById/"+id);
+    }
+
 }
