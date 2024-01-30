@@ -37,6 +37,13 @@ const MENUITEMS = [
       type:'link',
       icon:'shopping_cart',
       role:''
+    },
+    {
+      state:'view',
+      name:'View Bill',
+      type:'link',
+      icon:'backup_table',
+      role:''
     }
 ];
 
